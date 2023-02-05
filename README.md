@@ -1,11 +1,20 @@
 # binary_distinguish_GRB_by_DL
+Paper information：  
+```
+Peng Zhang, Bing Li, RenZhou Gui, et al. 2023. Application of Deep Learning Methods for Distinguishing Gamma-Ray Bursts from Fermi/GBM TTE Data. Submitted to journal (The Astrophysical Journal Supplement Series).
+```
 
-This directory contains dataset, Deep Learning Algorithms, and candidates. 
+The deep learning algorithms  is applied to 
+distinguish gamma-ray bursts.   
+This directory contains dataset, deep learning algorithms, and candidates.   
+The samples in the dataset are count map consisting of light curves for each energy band, which extracted from the observation data of [Fermi/GBM](https://gammaray.nsstc.nasa.gov/gbm/).  
+The deep learning algorithms is convolutional neural network. 
+The candidates are the possible GRBs found from one year observations (20210701-20220701) of Fermi/GBM by applying the optimal model. 
 
 ![210702A](./ref_file/example.png)
-Top: count map
-Middle: light curve of all energy band
-Bottom: heat map of features
+Top: count map  
+Middle: light curve of all energy band  
+Bottom: heat map of features  
 
 ## requirements
 
@@ -31,7 +40,7 @@ download link:
 
 ## Trained model
 
-download link:  
+download link of all models:  
 best model (ResNet-CBAM@64ms): [h5 file](./trained_model/resnet-CBAM_64ms.h5)
 
 ## Candidates
