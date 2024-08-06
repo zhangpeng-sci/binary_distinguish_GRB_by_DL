@@ -1,7 +1,7 @@
 # binary_distinguish_GRB_by_DL
-Paper information：  
+Paper information：  [IOP](https://iopscience.iop.org/article/10.3847/1538-4365/ad2de5)
 ```
-Peng Zhang, Bing Li, RenZhou Gui, et al. 2023. Application of Deep Learning Methods for Distinguishing Gamma-Ray Bursts from Fermi/GBM TTE Data. Submitted to journal (The Astrophysical Journal Supplement Series).
+Zhang P, Li B, Gui R, et al. Application of Deep-learning Methods for Distinguishing Gamma-Ray Bursts from Fermi/GBM Time-tagged Event Data[J]. The Astrophysical Journal Supplement Series, 2024, 272(1): 4.
 ```
 
 The deep learning algorithms  is applied to 
